@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+a:hover{
+    color:chocolate;
+}
+   a{
+    color:black;
+    text-decoration: none;
+    }
+.navbar{
+    height: 150px;
+    border-bottom: 2px solid gold;
+    position: fixed;
+    top: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color:thistle;
+    }
+    .gears-image{
+        object-fit: cover;
+        width: 36%;}
+ul{
+    list-style: none;
+}
+h1{
+    font-family:cursive;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 10px;
+   }
+.navbar ul li{
+    display: inline;
+    padding: 5px;
+}
+#main-container{
+    margin-top: 150px;
+    display: flex;
+    width: 100%;
+}
+.interior-image{
+object-fit:cover;
+width:90%;
+}
+.text-element{
+height: 100vh- 150px;
+scroll-behavior: auto;
+}
+.left{
+width: 60%;
+}
+.right{
+    width: 40%;
+    margin-right:50px;
+}
+.button{
+    border-radius: 25%;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+
